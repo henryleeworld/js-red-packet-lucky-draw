@@ -1,176 +1,176 @@
 .machine-1 {
-	width: 472px;
-	border-radius: 10px;
-	background: #fb6853;
-	text-align: center;
+    width: 472px;
+    border-radius: 10px;
+    background: #fb6853;
+    text-align: center;
 }
 
 .game-info {
-	display: inline-block;
-	width: 80%;
-	height: 40px;
-	margin: 20px 0;
-	border-radius: 20px;
-	background: #5c1b17;
-	color: #fff;
-	line-height: 40px;
-	border-top: 3px solid #a82a1b;
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    margin: 20px 0;
+    border-radius: 20px;
+    background: #5c1b17;
+    color: #fff;
+    line-height: 40px;
+    border-top: 3px solid #a82a1b;
 }
 
 .machine-2 {
-	position: relative;
-	width: 432px;
-	height: 20px;
-	margin: 0 20px;
-	background: #bb3e2a;
+    position: relative;
+    width: 432px;
+    height: 20px;
+    margin: 0 20px;
+    background: #bb3e2a;
 }
 
 .machine-2:before {
-	content: "";
-	position: absolute;
-	left: -12px;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 12px 20px 0;
-	border-color: transparent #bb3e2a transparent transparent;
+    content: "";
+    position: absolute;
+    left: -12px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 20px 0;
+    border-color: transparent #bb3e2a transparent transparent;
 }
 
 .machine-2:after {
-	content: "";
-	position: absolute;
-	right: -12px;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 20px 12px 0 0;
-	border-color: #bb3e2a transparent transparent transparent;
+    content: "";
+    position: absolute;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 12px 0 0;
+    border-color: #bb3e2a transparent transparent transparent;
 }
 
 .machine-3 {
-	display: inline-block;
-	padding: 10px;
-	margin: 0 20px;
-	background: #ec5e46;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 20px;
+    background: #ec5e46;
 }
 
 .machine-4 {
-	position: relative;
-	width: 432px;
-	height: 20px;
-	margin: 0 20px;
-	background: #bb3e2a;
+    position: relative;
+    width: 432px;
+    height: 20px;
+    margin: 0 20px;
+    background: #bb3e2a;
 }
 
 .machine-4:before {
-	content: "";
-	position: absolute;
-	left: -12px;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 0 20px 12px;
-	border-color: transparent transparent #bb3e2a transparent;
+    content: "";
+    position: absolute;
+    left: -12px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 20px 12px;
+    border-color: transparent transparent #bb3e2a transparent;
 }
 
 .machine-4:after {
-	content: "";
-	position: absolute;
-	right: -12px;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 20px 0 0 12px;
-	border-color: transparent transparent transparent #bb3e2a;
+    content: "";
+    position: absolute;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 12px;
+    border-color: transparent transparent transparent #bb3e2a;
 }
 
 .machine-5 {
-	width: 472px;
-	height: 200px;
-	border-radius: 10px;
-	background: #fb6853;
-	text-align: center;
-	line-height: 100px;
-	color: #a2351e;
+    width: 472px;
+    height: 200px;
+    border-radius: 10px;
+    background: #fb6853;
+    text-align: center;
+    line-height: 100px;
+    color: #a2351e;
 }
 
 .prize-content {
-	width: 372px;
-	padding: 10px;
-	background: #6a211b;
-	border-radius: 10px;
-	margin: 10px;
-	box-shadow: 0 0 0 10px #b52314;
+    width: 372px;
+    padding: 10px;
+    background: #6a211b;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 0 10px #b52314;
 }
 
 .prize {
-	display: inline-block;
-	width: 100px;
-	height: 100px;
-	margin: 10px;
-	border-radius: 5px;
-	background: #530f10;
-	text-align: center;
-	font-size: 0;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #530f10;
+    text-align: center;
+    font-size: 0;
 }
 
 .prize:before {
-	content: "";
-	display: inline-block;
-	height: 100%;
-	width: 0;
-	vertical-align: middle;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
 }
 
 .prize.active {
-	background: #fef2c2;
+    background: #fef2c2;
 }
 
 .red-packets {
-	display: inline-block;
-	position: relative;
-	width: 68px;
-	height: 80px;
-	background: #c52b21;
-	vertical-align: middle;
-	border-radius: 10px;
-	overflow: hidden;
+    display: inline-block;
+    position: relative;
+    width: 68px;
+    height: 80px;
+    background: #c52b21;
+    vertical-align: middle;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .red-packets:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	border-style: solid;
-	border-width: 27px 34px 0 34px;
-	border-color: #d45232 transparent transparent transparent;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 27px 34px 0 34px;
+    border-color: #d45232 transparent transparent transparent;
 }
 
 .red-packets>span {
-	display: none;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	font-size: 24px;
-	color: #fdd900;
-	z-index: 10;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fdd900;
+    z-index: 10;
 }
 
 .showPrize .red-packets>span {
-	display: inline-block;
+    display: inline-block;
 }
 
 .gift-btn {
-	display: inline-block;
-	width: 70px;
-	height: 70px;
-	line-height: 70px;
-	border-radius: 100%;
-	font-size: 32px;
-	background: #ffe74c;
-	vertical-align: middle;
-	box-shadow: 0 0 0 5px #ffb129;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    font-size: 32px;
+    background: #ffe74c;
+    vertical-align: middle;
+    box-shadow: 0 0 0 5px #ffb129;
 }
